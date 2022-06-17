@@ -10,7 +10,9 @@ body {
     height: 500px;
 }
 
-.button {
+.button,
+#display,
+#clear {
     border: thin solid;
 }
 
