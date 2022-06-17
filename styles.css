@@ -1,0 +1,24 @@
+body {
+    display: flex;
+}
+
+#calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: thin solid;
+    width: 400px;
+    height: 500px;
+}
+
+.button {
+    border: thin solid;
+}
+
+#display {
+   grid-column: span 4; 
+}
+
+#zero,
+#equals {
+    grid-column: span 3;
+}
