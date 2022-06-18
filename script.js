@@ -1,3 +1,4 @@
+// Math functions
 function add(x, y) {
     return x + y;            
 }
@@ -14,6 +15,8 @@ function divide(x, y) {
     return x / y;
 }
 
+// Operate function calls appropriate math function
+// and updates display with result
 const result = document.querySelector('#result');
 
 function operate(operator, x, y) {
@@ -28,6 +31,7 @@ function operate(operator, x, y) {
     }
 }
 
+// Adds click event for each button to update display with entries
 const buttons = document.querySelectorAll('.button');
 const display = document.querySelector('#display');
 
@@ -37,6 +41,8 @@ buttons.forEach(button => {
     })
 });
 
+// Adds click event to equals button to parse display for operate arguments
+// and call the function
 const equals = document.querySelector('#equals');
 
 equals.addEventListener('click', () => {
