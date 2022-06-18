@@ -14,15 +14,17 @@ function divide(x, y) {
     return x / y;
 }
 
+const result = document.querySelector('#result');
+
 function operate(operator, x, y) {
     if (operator == '+') {
-        return add(x, y);
-    } else if (operator == '-') {
-        return subtract(x, y);
-    } else if (operator == '*') {
-        return multiply(x, y);
-    } else if (operator == '/') {
-        return divide(x, y);
+        result.textContent = add(x, y);
+    } else if (operator == '−') {
+        result.textContent = subtract(x, y);
+    } else if (operator == '×') {
+        result.textContent = multiply(x, y);
+    } else if (operator == '÷') {
+        result.textContent = divide(x, y);
     }
 }
 
