@@ -21,32 +21,18 @@ body {
 
 .button,
 #display,
-#result,
 #clear,
 #equals {
     border: thin solid;
 }
 
-#display,
-#result {
+#display {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 12px;
-    font-size: 28px;
-}
-
-#display {
-    border-bottom: 0;
-}
-
-#result {
-    border-top: 0;
-}
-
-#display,
-#result {
-   grid-column: span 4; 
+    font-size: 36px;
+    grid-column: span 4;
 }
 
 #zero,
