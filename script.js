@@ -27,10 +27,10 @@ function operate(operator, x, y) {
 }
 
 const buttons = document.querySelectorAll('.button');
+const display = document.querySelector('#display');
 
 buttons.forEach(button => {
     button.addEventListener('click', function (e) {
-        const display = document.querySelector('#display');
         display.textContent += e.target.textContent;
     })
 });
