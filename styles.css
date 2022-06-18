@@ -53,3 +53,7 @@ body {
 #equals {
     grid-column: span 3;
 }
+
+.operator {
+    background-color: orange;
+}
