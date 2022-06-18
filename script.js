@@ -36,3 +36,12 @@ buttons.forEach(button => {
         display.textContent += e.target.textContent;
     })
 });
+
+const equals = document.querySelector('#equals');
+
+equals.addEventListener('click', () => {
+    const operator = display.textContent.match(/\u002B|\u2212|\u00D7|\u00F7/).toString();
+    const x = +display.textContent.match(/[0-9]+/).toString();
+    const y = +display.textContent.match(/[0-9]+$/).toString();
+    operate(operator, x, y);
+});
