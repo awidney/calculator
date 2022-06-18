@@ -27,10 +27,12 @@ body {
     border: thin solid;
 }
 
-#display {
+#display,
+#result {
     display: flex;
     justify-content: flex-end;
-    padding: 8px;
+    align-items: center;
+    padding-right: 12px;
     border-bottom: 0;
     font-size: 28px;
 }
