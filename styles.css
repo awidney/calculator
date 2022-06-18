@@ -11,12 +11,34 @@ body {
 }
 
 .button,
+#clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.button,
 #display,
+#result,
 #clear {
     border: thin solid;
 }
 
 #display {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    border-bottom: 0;
+    font-size: 28px;
+}
+
+#result {
+    border-top: 0;
+}
+
+#display,
+#result {
    grid-column: span 4; 
 }
 
