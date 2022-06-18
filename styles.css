@@ -11,7 +11,8 @@ body {
 }
 
 .button,
-#clear {
+#clear,
+#equals {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +22,8 @@ body {
 .button,
 #display,
 #result,
-#clear {
+#clear,
+#equals {
     border: thin solid;
 }
 
