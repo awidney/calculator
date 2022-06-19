@@ -8,6 +8,9 @@ body {
     border: thin solid;
     width: 400px;
     height: 500px;
+    gap: 3px;
+    padding: 3px;
+    background-color: lightsteelblue;
 }
 
 .button,
@@ -33,13 +36,25 @@ body {
     padding-right: 12px;
     font-size: 36px;
     grid-column: span 4;
+    background-color: white;
 }
 
 #zero,
 #equals {
     grid-column: span 3;
+    border-color: black;
 }
 
 .operator {
-    background-color: orange;
+    background-color: grey;
+    color: white;
+    border-color: black;
+}
+
+#clear {
+    background-color: lightgray;
+}
+
+.number {
+    background-color: whitesmoke;
 }
