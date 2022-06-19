@@ -11,6 +11,7 @@ body {
     gap: 3px;
     padding: 3px;
     background-color: lightsteelblue;
+    border-radius: 3px;
 }
 
 .button,
@@ -20,6 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 28px;
+    border-radius: 3px;
 }
 
 .button,
