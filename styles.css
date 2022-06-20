@@ -4,6 +4,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    background-color: snow;
 }
 
 #calculator {
@@ -14,7 +15,7 @@ body {
     height: 500px;
     gap: 3px;
     padding: 3px;
-    background-color: lightsteelblue;
+    background-color: black;
     border-radius: 3px;
 }
 
@@ -32,7 +33,7 @@ body {
 #display,
 #clear,
 #equals {
-    border: thin solid;
+    border: thin solid black;
 }
 
 #display {
@@ -42,25 +43,26 @@ body {
     padding: 0 12px;
     font-size: 36px;
     grid-column: span 4;
-    background-color: white;
+    background-color: whitesmoke;
+    color: black
 }
 
 #zero,
 #equals {
     grid-column: span 3;
-    border-color: black;
 }
 
 .operator {
-    background-color: grey;
+    background-color: orange;
     color: white;
-    border-color: black;
 }
 
 #clear {
-    background-color: lightgray;
+    background-color: slategrey;
+    color: white;
 }
 
 .number {
-    background-color: whitesmoke;
+    background-color: lightslategrey;
+    color: white;
 }
