@@ -13,10 +13,8 @@ body {
     border: thin solid;
     width: 350px;
     height: 500px;
-    gap: 3px;
     padding: 3px;
     background-color: black;
-    border-radius: 3px;
 }
 
 .button,
@@ -26,7 +24,6 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 28px;
-    border-radius: 3px;
 }
 
 .button,
